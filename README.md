@@ -15,3 +15,4 @@ Confirm password: Ensure the password matches the previously entered one.
 Error messages: Display error messages when any of the fields are invalid.
 Successful registration: Inform the user when the registration is successful.
 Age input from a calendar, and check if the user is at least 18.
+Bootstrap JavaScript modal plugin appears as soon the form is completed.

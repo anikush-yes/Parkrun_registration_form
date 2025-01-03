@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <title>Registration</title>
+
+</head>
+
+<body>
+
+    <form id="registrationForm">
+        <h2> Register for Saturday's parkrun in Vilnius - Verkiai Regional Park</h2>
+        <label for="firstName">Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <div id="firstNameError" class="error"></div>
+
+        <label for="firstName">Surname:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <div id="firstNameError" class="error"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <div id="emailError" class="error"></div>
+
+        <label for="age">Age:</label>
+        <input type="date" id="age" name="age" required>
+        <div id="ageError" class="error"></div>
+
+        <label for="gender">Gender:</label>
+
+        <select id="gender" name="gender">
+            <option value="" disabled selected>Select from the list</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <option value="prefer_not_to_answer">Prefer not to answer</option>
+        </select>
+
+        <div id="genderError" class="error"></div>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+xxxxxxxxxxx" required>
+        <div id="phoneError" class="error"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <div id="passwordError" class="error"></div>
+
+        <label for="confirmPassword">Repeat Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <div id="confirmPasswordError" class="error"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>You have successfully registered!</p>
+        </div>
+    </div>
+
+
+
+
+
+</body>
